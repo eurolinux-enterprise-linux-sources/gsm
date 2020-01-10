@@ -1,6 +1,6 @@
 Name:           gsm
 Version:        1.0.13
-Release:        11%{?dist}
+Release:        9%{?dist}
 Summary:        Shared libraries for GSM speech compressor
 
 Group:          System Environment/Libraries
@@ -121,12 +121,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.13-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.13-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.13-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
